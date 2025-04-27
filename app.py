@@ -21,7 +21,7 @@ from utils import plot_community_graph
 # --------------------- Streamlit Layout ---------------------
 st.set_page_config(layout="wide")
 st.title("Course Grading Community Detection System")
-st.subheader("Spring 2010 - Spring 2024")
+st.subheader("University of Illinois Spring 2010 - Spring 2024")
 
 # --------------------- Data Loading ---------------------
 @st.cache_data
