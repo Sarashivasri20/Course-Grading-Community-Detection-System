@@ -53,7 +53,7 @@ for i, course1 in enumerate(course_ids):
 
 # --------------------- Algorithm Selection ---------------------
 algo_option = st.selectbox("Choose Hybridization or View Original Methods:", 
-    [ "Greedy → Louvain", "Greedy → Walktrap","Greedy → Leiden", "Louvain → Walktrap","Walktrap → Leiden", "Louvain → Leiden", "Original Algorithms Comparison"])
+    [ "Greedy → Louvain", "Greedy → Walktrap","Greedy → Leiden", "Louvain → Walktrap","Walktrap → Leiden", "Louvain → Leiden", "Overall Algorithms Comparison"])
 
 # Initialize a dictionary to store modularity results
 modularity_results = {}
